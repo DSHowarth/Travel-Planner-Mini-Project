@@ -1,8 +1,8 @@
 const { Model, DataTypes } = require('sequelize');
 
-class Trips extends Model {}
+class Trip extends Model {}
 
-Trips.init(
+Trip.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -40,4 +40,4 @@ Trips.init(
     }   
 )
 
-module.exports = Trips
+module.exports = Trip
